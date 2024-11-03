@@ -36,7 +36,7 @@ I had to do some data preprocessing, firstly I removed unnecessary columns and t
 I used the same tools as in the case of correcting single words, the only difference being, utilizing text (not single word) mode for SymSpell
 
 ### Metrics for performance evaluation
-As this type of task required, I had to change some matrix. I once again used Levenshtein but this time I additionaly calculated Jaccard-Similarity
+As this type of task required, I had to change some metrics. I once again used Levenshtein but this time I additionaly calculated Jaccard-Similarity
 #### Jaccard-Similarity
 Jaccard Similarity is a metric that measures the similarity between two sets by comparing the overlap between them. For text analysis, it is commonly used to evaluate how similar two sets of words are by calculating the ratio of the intersection (common words) to the union (total unique words) of the two sets. Jaccard Similarity ranges from 0 to 1, where 0 means no overlap and 1 means the sets are identical. This metric is particularly useful for evaluating text similarity in longer texts, as it accounts for the presence or absence of words rather than their order, making it effective for identifying partial matches and shared vocabulary in corrected and original texts.
 
