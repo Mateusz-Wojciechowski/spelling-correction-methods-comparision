@@ -51,22 +51,23 @@ cd <repository-folder>
 I strongly suggest using conda enviroment as for example metaphone library is unavailable throug pip
 Download datasets described above and place them in data folder if you didn't collect them from github.
 
-Generating corrections for words
+### Generating corrections for words
 
-Option 1
+#### Option 1
 Run generate_csv.py to create a csv file with the data for correction, Run categorise_data.py to categorise your dataset and save each category to a seperate file, Run convert_to_lowercase.py, Run generate_corrections.py to obtain corrections
 
-Option 2 
+#### Option 2 
 Run run_pipeline_word_correction.py file that contains the whole pipeline.
 It may take a while !!!
 
 Generating Text corrections
 
-Option 1
+#### Option 1
 Run synthetically_augment_articles.py to read the article data and apply augmentation, Run generate_text_corrections.py to obtain text corrections
 
-Option 2
+#### Option 2
 Run run_pipeline_text_correction.py
+It may take a while !!!
 
 
 
